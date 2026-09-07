@@ -26,10 +26,9 @@ Monte Carlo             5.8477      4.6210
 
 ## Usage
 Run the script:
-bash
-'''
+```
   $ python main.py
-'''
+```
 When prompted, type a stock ticker (e.g. AAPL, TSLA) and press Enter.
 If the ticker doesn't exist, you'll be asked to enter one again.
 The tool prints the spot price, annualized volatility, risk-free rate, and a comparison table of call/put prices from all three models — see the example at the top of this README.
